@@ -59,7 +59,6 @@ export default {
         str += this.loadedProject.teamMembers[i].member + ' , '
       }
       str = str.substring(0, str.length - 2)
-      console.log(str)
       return str
     }
   },
